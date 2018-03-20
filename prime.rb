@@ -1,8 +1,10 @@
 def prime?(num)
-  for (i=num;i>0;i--) do
+  i = num -1
+  while i>1 do
     if num%i==0
       return false
     end
+    i -= 1
   end
   
   return true
