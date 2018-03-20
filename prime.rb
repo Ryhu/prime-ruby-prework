@@ -3,7 +3,7 @@ def prime?(num)
     return false
   end
   i = num -1
-  while i>2 do
+  while i>1 do
     if num%i==0
       return false
     end
