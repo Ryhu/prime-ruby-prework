@@ -1,5 +1,5 @@
 def prime?(num)
-  for (i=num;i>0;i--)
+  for (i=num;i>0;i--) do
     if num%i==0
       return false
     end
