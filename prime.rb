@@ -1,6 +1,6 @@
 def prime?(num)
-  i = num -1
-  while i>1 do
+  i = num
+  while i>2 do
     if num%i==0
       return false
     end
